@@ -1,1 +1,1 @@
-document.title = 'ts learning'
+import './example/interface-compatibility'
