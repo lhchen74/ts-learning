@@ -1,1 +1,1 @@
-import './example/interface-compatibility'
+import "./example/interface-compatibility";
