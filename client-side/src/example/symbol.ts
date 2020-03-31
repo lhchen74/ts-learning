@@ -4,10 +4,10 @@ const s2 = Symbol()
 console.log(s2)
 
 const s3 = 'name'
-const info = {
-    [s3]: 'babb'
-}
-console.log(info)
+// const info = {
+//     [s3]: 'babb'
+// }
+// console.log(info)
 
 const s4 = Symbol('name')
 const info2 = {
@@ -16,9 +16,9 @@ const info2 = {
     sex: 'male'
 }
 console.log(info2, info2[s4])
-for (const key in info2) {
-    console.log(key)
-}
+// for (const key in info2) {
+//     console.log(key)
+// }
 console.log(Object.keys(info2))
 console.log(Object.getOwnPropertyNames(info2))
 console.log(JSON.stringify(info2))
