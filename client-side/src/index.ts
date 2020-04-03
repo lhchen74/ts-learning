@@ -1,1 +1,1 @@
-import "./example/advance-type-2";
+import "./ts-modules/index";

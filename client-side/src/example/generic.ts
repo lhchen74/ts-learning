@@ -40,15 +40,15 @@
 // getArray([1, 2], 3)
 
 // keyof T 索引类型
-const getProps = <T, K extends keyof T>(object: T, propName: K) => {
-    return object[propName]
-}
+// const getProps = <T, K extends keyof T>(object: T, propName: K) => {
+//     return object[propName]
+// }
 
-const objs = {
-    a: 'a',
-    b: 'b'
-}
+// const objs = {
+//     a: 'a',
+//     b: 'b'
+// }
 
-getProps(objs, 'a')
-// getProps(objs, 'c')
+// getProps(objs, 'a')
+// // getProps(objs, 'c')
 
